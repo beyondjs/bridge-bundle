@@ -6,12 +6,6 @@
 	"exports": {
 		".": "./index.js"
 	},
-	"dependencies": {
-		"@beyond-js/backend": "^1.0.0"
-	},
-	"peerDependencies": {
-		"@beyond-js/kernel": "^1.0.0"
-	},
 	"engines": {
 		"node": ">=14.0.0"
 	},
@@ -22,5 +16,11 @@
 		"bundle"
 	],
 	"author": "BeyondJS",
-	"license": "MIT"
+	"license": "MIT",
+	"peerDependencies": {
+		"@beyond-js/backend": "^0.1.9"
+	},
+	"dependencies": {
+		"@beyond-js/bundles-sdk": "^1.0.1"
+	}
 }
